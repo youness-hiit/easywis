@@ -1,6 +1,6 @@
 # Présentation
 
-**Cette application desktop o pour but de vous faciliter la vie, en vous permettant la création des branches en un seul clique à savoir dans les repos suivant :**
+**Cette application Desktop à pour but de vous faciliter la vie, en vous permettant la création des branches en un seul clique à savoir dans les repos suivant :**
 
 - `Intranet`
 - `People`
