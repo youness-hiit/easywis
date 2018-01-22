@@ -32,5 +32,5 @@ Input 4 : si vous souhaitez garder la meme version des package.json de la branch
 - lancement de certaines commandes comme celle de translation
 - pour d'autres idées je suis preneur :D
 
-![alt tag](https://imgur.com/a/4qB9P)
+# Captures d'écran
 ![alt tag](https://imgur.com/a/4qB9P)
