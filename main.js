@@ -193,9 +193,9 @@ function pushBranches(infos) {
          git push origin ${infos.macroBranch}
         `,
         function(err, data, err) {
+            mainWindow.webContents.send('remove-class-m-progress');
             if (!err) {
                 console.log(data);
-                mainWindow.webContents.send('remove-class-m-progress');
             } else {
                 console.log('Error : ', err);
             }
