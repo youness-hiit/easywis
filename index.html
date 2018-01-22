@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>EasyWis</title>
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+
+  <!-- Website CSS style -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Website Font style -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="row main">
+    <div class="main-login main-center">
+      <form class="" method="post" action="#">
+
+        <div class="form-group">
+          <label for="pathInput" class="cols-sm-2 control-label">Chemin vers intranet *</label>
+          <div class="cols-sm-12" id="pathGroup">
+            <div class="input-group">
+              <input type="text" class="form-control" id="pathInput" placeholder="Chemin vers votre répertoire Intranet ..." disabled/>
+              <span class="input-group-addon as-btn" id="choosePathBtn"><i class="fa fa-file fa" aria-hidden="true"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="sourceBranchInput" class="cols-sm-2 control-label">Nom de la branche Source<small> (exemple : develop)</small> *</label>
+          <div class="cols-sm-12">
+            <div class="input-group" id="sourceBranchGroup">
+              <input type="text" class="form-control" id="sourceBranchInput"  placeholder="Entrez le nom de la branche"/>
+              <span class="input-group-addon"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="macroBranchInput" class="cols-sm-2 control-label">Nom de votre branche<small> (exemple : project/myiad-lot1)</small> *</label>
+          <div class="cols-sm-12">
+            <div class="input-group" id="macroBranchGroup">
+              <input type="text" class="form-control" id="macroBranchInput"  placeholder="Entrez le nom de la branche"/>
+              <span class="input-group-addon"><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="cols-sm-12">
+            <div class="checkbox checkbox-colored">
+              <input type="checkbox" id="versionCheckbox">
+              <label for="versionCheckbox">Changer la version des packages?</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group" id="versionGroup">
+          <label for="versionInput" class="cols-sm-2 control-label">Numéro de version<small> (exemple : 14.0.3)</small></label>
+          <div class="cols-sm-12">
+            <div class="input-group">
+              <input type="text" class="form-control" id="versionInput"  placeholder="Entrez le numéro de version"/>
+              <span class="input-group-addon"><i class="fa fa-cog" aria-hidden="true"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <a id="createBtn" href="#" type="button" class="btn btn-lg btn-block create-button">Créer</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+</script>
+</body>
+</html>
