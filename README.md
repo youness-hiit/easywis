@@ -36,3 +36,4 @@ Input 4 : si vous souhaitez garder la meme version des package.json de la branch
 ![Capture décran 1](https://imgur.com/a/4qB9P)
 ![Capture décran 2](https://imgur.com/AkNSrjy)
 ![Capture décran 3](https://imgur.com/dKTd6TW)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
